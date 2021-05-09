@@ -1,7 +1,7 @@
 
 # List to do page.
 This is a simple to-do list page prepared as part of learning programming.
-![Currency calculator](https://raw.githubusercontent.com/BPiskulak/to-do-list/main/img/list-to-do.png) 
+![List to do page](https://raw.githubusercontent.com/BPiskulak/to-do-list/main/img/list-to-do.png) 
 
 ## Table of contents
 * [Demo](#demo)
@@ -23,12 +23,8 @@ The page allows you to add and delete to-do tasks
 * Javascript ES6+
 
 ## Setup
-To start the application, follow the instructions below:
-1. Go to the website: https://bpiskulak.github.io/currency-calculator/
-2. Enter the value in Polish zlotys in the "PLN" field
-3. Click on "Przelicz"
-4. To clear and recalculate the redo, click on "Resetuj"
-
+To check how it works, you have to go to the website: https://bpiskulak.github.io/to-do-list/, and follow the instructions in the graphics below:
+![List to do page](https://raw.githubusercontent.com/BPiskulak/to-do-list/main/img/to-do-list-setup.gif) 
 ## Status
 The project is in progress and will be further expanded.
 
