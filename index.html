@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bogusław Piskulak</title>
+    <title>Lista zadañ</title>
     <link rel="icon" href="img/icon-bp.png">
     <meta property="og:image" content="img/my_website_opengraph.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" />
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,400&display=swap"
         rel="stylesheet">
@@ -19,15 +21,25 @@
 </head>
 
 <body>
+    <div class="container">
+        <h1> Lista zadañ</h1>
+        <div class="subHeader">
+            <h2>Dodaj nowe zadanie</h2>
+        </div>
+        <form class="form js-form">
+            <input class="form__field js-newTask" required placeholder="Co jest do zrobienia?">
+            <button class="form__button">Dodaj zadanie </button>
+        </form>
 
-<form class="js-form">
-    <input class="js-newTask">
-    <button>Dodaj zadanie </button>
-</form>
-<ul class="js-tasks">
+        <div class="subHeader">
+            <h2>Lista zadañ</h2>
+        </div>
+        <div class="taskList">
+            <ul class="taskList__item js-tasks"></ul>
+        </div>
 
 
-</ul>
+    </div>
 </body>
 
 </html>
