@@ -1,7 +1,7 @@
 
-# Currency calculator
-It is a simple currency converter prepared as part of learning programming.
-![Currency calculator](https://raw.githubusercontent.com/BPiskulak/currency-calculator/main/img/currency-calculator.png) 
+# List to do page.
+This is a simple to-do list page prepared as part of learning programming.
+![Currency calculator](https://raw.githubusercontent.com/BPiskulak/to-do-list/main/img/list-to-do.png) 
 
 ## Table of contents
 * [Demo](#demo)
@@ -15,11 +15,11 @@ It is a simple currency converter prepared as part of learning programming.
 https://bpiskulak.github.io/to-do-list/
 
 ## General info
-The calculator converts currencies from PLN to Francs, Euro and Dollars.
+The page allows you to add and delete to-do tasks
 
 ## Technologies
 * HTML
-* CSS-BEM
+* CSS-BEM / Flexbox / Grid
 * Javascript ES6+
 
 ## Setup
