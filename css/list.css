@@ -40,7 +40,7 @@
 .taskList__button--done {
     grid-column: 1;
     background-color: #1b7a22;
-    border-radius: 5px;
+    
     
 }
 
@@ -50,8 +50,8 @@
 
 .taskList__button--remove {
     grid-column: 3;
-    background-color: darkgoldenrod;
-    border-radius: 5px;
+    background-color: #d30404;
+    
 }
 
 .taskList__button--remove:hover {
