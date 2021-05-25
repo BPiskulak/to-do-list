@@ -91,7 +91,7 @@
                      ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
                  </button>
 
-                 <button class=" section__button js-completeAllTasksButtons" ${tasks.every((task => task.done)) ? "disabled" : ""}> 
+                 <button class=" section__button js-completeAllTasksButton" ${tasks.every((task => task.done)) ? "disabled" : ""}> 
                      Ukończ wszystkie
                  </button>
             `;
@@ -101,9 +101,9 @@
 
     const bindButtonEvents = () => {
 
-        const completeAllTasksButtons = document.querySelector(".js-completeAllTasksButtons");
-        if (completeAllTasksButtons) {
-            completeAllTasksButtons.addEventListener("click", markAllTasksDone);
+        const completeAllTasksButton = document.querySelector(".js-completeAllTasksButton");
+        if (completeAllTasksButton) {
+            completeAllTasksButton.addEventListener("click", markAllTasksDone);
         }
         const hideDoneTasksButton = document.querySelector(".js-hideDoneTasksButton");
         if (hideDoneTasksButton) {
