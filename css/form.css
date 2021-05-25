@@ -7,6 +7,7 @@
     padding: 10px 20px 10px 20px;
     display: flex;
     gap:10px;
+    cursor: pointer;
     
 }
 
@@ -30,6 +31,7 @@
     padding: 10px;
     margin: 3px;
     cursor: pointer;
+    transition: 1s;
 }
 
 @media (max-width: 768px) {
@@ -41,6 +43,14 @@
 
 .form__button:hover {
     background-color: rgb(2, 100, 100);
+    transform:scale(1.2)
+}
+
+
+@media (max-width: 768px) {
+    .form__button:hover {
+        transform:scale(1.1)
+    }
 }
 
 .form__button:active {

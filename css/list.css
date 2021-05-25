@@ -24,6 +24,10 @@
     border-bottom: solid 1px #ccc;
 }
 
+.taskList__item--hidden {
+    display: none;
+  }
+  
 .taskList__content--done {
     text-decoration: line-through;
 }
@@ -37,20 +41,21 @@
     border: none;
     grid-column: 1;
     background-color: #1b7a22;
+    cursor: pointer;
 }
 
-}
-
-.taskList__button--done:hover {
+.taskList__button:hover {
     background-color: hsl(124, 64%, 39%);
+    transition: 1s;
 }
 
 .taskList__button--remove {
     grid-column: 3;
-    background-color: #d30404;
-    
+    background-color: #a70303; 
 }
 
 .taskList__button--remove:hover {
-    background-color: red;
+    background-color: #e20606;
+    transition: 1s ;
 }
+
