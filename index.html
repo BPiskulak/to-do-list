@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista zadañ</title>
+    <title>Lista zadań</title>
     <link rel="icon" href="img/icon-bp.png">
     <meta property="og:image" content="img/my_website_opengraph.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -14,6 +14,7 @@
     <link href="css/global.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -22,22 +23,25 @@
 <body>
     <div class="container">
         <h1> Lista zadań</h1>
-        <div class="subHeader">
-            <h2>Dodaj nowe zadanie</h2>
-        </div>
-        <form class="form js-form">
-            <input class="form__field js-newTask" required placeholder="Co jest do zrobienia?">
-            <button class="form__button">Dodaj zadanie </button>
-        </form>
-
-        <div class="subHeader">
-            <h2>Lista zadań</h2>
-        </div>
-        <div class="taskList">
-            <ul class="taskList__item js-tasks"></ul>
-        </div>
-
-
+        <section class="section">
+            <h2 class="section__header">Dodaj nowe zadanie</h2>
+            <form class="form js-form">
+                <input class="form__field js-newTask" required placeholder="Co jest do zrobienia?">
+                <button class="form__button">Dodaj zadanie</button>
+            </form>
+        </section>
+        <section class="section">
+            <div class="section_items">
+                <h2 class="section__header">Lista zadań</h2>
+                <div class="section__buttons js-buttons">
+                    <button class="section__button js-toggleHideDoneTasks">Ukryj ukończone</button>
+                    <button class="section__button js-markAllDone"> Ukończ wszystkie</button>
+                </div>
+            </div>
+            <div class="taskList">
+                <ul class="taskList__item js-tasks"></ul>
+            </div>
+        </section>
     </div>
 </body>
 
